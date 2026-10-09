@@ -1,0 +1,19 @@
+{
+    "formatVersion": 1,
+    "menu": {
+        "registration": {
+            "label": "Config.registration",
+            "formFields": {
+                "allowedDomain": {
+                    "type": "inputText",
+                    "required": true,
+                    "label": "Config.allowedDomain",
+                    "options": {
+                        "defaultValue": "aachener-grund.de",
+                        "tooltip": "Config.allowedDomainTooltip"
+                    }
+                }
+            }
+        }
+    }
+}

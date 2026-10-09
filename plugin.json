@@ -1,0 +1,16 @@
+{
+    "name": "AachenerRegistrationGuard",
+    "namespace": "AachenerRegistrationGuard",
+    "version": "1.0.0",
+    "type": "integration",
+    "license": "proprietary",
+    "isClosedSource": false,
+    "description": "Serverseitige E-Mail-Domainpruefung fuer die Registrierung in plentyShop LTS und B2B Shop.",
+    "author": "SIMPEX Systemhaus GmbH",
+    "email": "info@simpex-systemhaus.de",
+    "pluginIcon": "icon_plugin.png",
+    "authorIcon": "icon_plugin.png",
+    "serviceProvider": "AachenerRegistrationGuard\\Providers\\RegistrationGuardServiceProvider",
+    "require": { "IO": ">=5.0.0 <6.0.0" },
+    "platform": { "php": ">=7.4 <9.0" }
+}
